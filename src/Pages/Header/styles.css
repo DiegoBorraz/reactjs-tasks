@@ -1,0 +1,9 @@
+.Header{
+    color:#f7f7ed; 
+    text-align: center;
+    flex: 1;
+    align-self: stretch;
+}
+h1 {
+    margin: 0;
+}

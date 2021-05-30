@@ -1,0 +1,40 @@
+.Line{
+    margin: 10px;
+    background-color: #19ad8d;
+    padding: 5px;
+    border-radius: 5px;
+}
+.Title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.Align{
+    display: flex;
+    flex-direction: row;
+}
+.Description{
+    flex: 12;
+    margin: 5px 5px 5px 0px;
+    background-color: #c8ece2;
+    border-radius: 5px;
+    word-break: break-word;
+    font-size: 15px;
+    padding: 5px;
+}
+.Button{
+    flex: 1;
+    margin: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.Editar{
+    background-color: #1939AD;
+    color: #f7f7ed;
+}
+.Deletar{
+    background-color: #80132A;
+    color: #f7f7ed;
+}

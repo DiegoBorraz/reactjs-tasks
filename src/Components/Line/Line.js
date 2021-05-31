@@ -1,17 +1,16 @@
 import React from 'react';
 import "./styles.css"
 
-export default function Line(){
-
+export default function Line({props}){
     return (
         <div className="Line">
             <div>
                 <div className="Title">
-                    Titulo
+                    {props.title}
                 </div>
                 <div className="Align">    
                     <div className="Description">
-                        Descrição
+                        {props.description}
                     </div>
                     <div >
                         <button className="Button Editar" type="button">Editar</button>

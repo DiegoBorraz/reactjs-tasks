@@ -4,7 +4,8 @@ export default function Header(){
 
     return (
         <div className="Header">
-            <h1>Cabeçalho teste</h1>
+            <a>Gerenciador de Tarefas</a>
+            <hr/>
         </div>
         
     );

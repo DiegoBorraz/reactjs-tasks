@@ -1,13 +1,14 @@
 import React , {useState, useEffect }from 'react';
 import Line from "../Line/Line";
-import axios from "axios";
+import { useTask } from "../../Context/TaskContext"
+import { getTasks } from "../../Services/TaskService";
 
 export default function List(){
-    const [ tasks, setTasks ] = useState([]);
+    const {tasks, setTasks } = useTask();
+    
     useEffect(()=>{
-        axios.get("https://api-tasks-java.herokuapp.com/task/all").then(
-            response => {
-                setTasks(response.data);
+        getTasks().then(response => {
+            setTasks(response.data);
         }).catch(error => {
             console.log("ERROR === ", error)
         });

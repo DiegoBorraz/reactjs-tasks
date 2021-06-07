@@ -3,7 +3,7 @@
     text-align: center;
     flex: 1;
     align-self: stretch;
-}
-h1 {
-    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
 }

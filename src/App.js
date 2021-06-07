@@ -1,8 +1,9 @@
+import React from 'react';
 import './App.css';
 import Header from "./Pages/Header/index";
 import Body from "./Pages/Body/index";
-function App() {
 
+function App() {
   return (
     <div className="App">
       <Header  />

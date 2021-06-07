@@ -1,0 +1,34 @@
+
+.Card{
+    background-color: #085475;
+    width: 60%;
+    height: 60vh; /*tem que tirar */
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    box-shadow: 0 40px 60px -6px black;
+    transition: 0.3s;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 50px;
+}
+.Close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor:pointer;
+    
+}
+.Children{
+    padding: 1px;
+}

@@ -2,8 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {TaskProvider} from  "./Context/TaskContext"
+
 
 ReactDOM.render(
-  <App />,
+  <TaskProvider>
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
+  </TaskProvider>,
   document.getElementById('root')
 );

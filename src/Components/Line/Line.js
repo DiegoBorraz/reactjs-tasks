@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import "./styles.css"
-
+import FormEdit from "../FormEdit/FormEdit"
 
 export default function Line({props}){
     const [edit, setEdit] = useState(false);
@@ -22,6 +22,7 @@ export default function Line({props}){
                         </div>
                     </div>
                 </div>
+                { edit && ( <FormEdit  task={props} close={()=>setEdit(false)} />)}
             </div>
     );
 }
